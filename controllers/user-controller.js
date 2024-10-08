@@ -27,8 +27,8 @@ const userSignUp = async (req, res) => {
 
   if (newUser) {
     res.status(201).json({
-      '_id': newUser.id,
-      'name': newUser.name,
+      "_id": newUser.id,
+      "name": newUser.name,
       "email": newUser.email
     })
   } else {
